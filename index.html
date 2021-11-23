@@ -91,7 +91,7 @@
         </div>
     </header>
     
-    <div class="container py-3">
+    <div class="container py-3 cv">
         <h1 class="text-center text-uppercase fs-4 fw-bold mb-5">Curriculum Vitae</h1>
         <div class="row mb-3">
             <div class="col-9">
@@ -409,6 +409,7 @@
             $(".toggle-menu").click(function () {
                 $(this).toggleClass("active");
                 $('.menu-drawer').toggleClass("open");
+                $('.cv').toggleClass('d-none');
             });
         });
     </script>
